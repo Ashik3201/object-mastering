@@ -22,7 +22,7 @@ const anontoJolil ={
     salary : 30000
 }
 
-
+//                          Bind
 // person.charge(1000);
 // console.log(person.salary);
 
@@ -31,6 +31,17 @@ const anontoJolil ={
 // heroBill(1000);
 // console.log(heroAlam.salary);
 
-const anontocharge = person.charge.bind(anontoJolil);
-anontocharge(500);
-console.log(anontoJolil.salary);
+// const anontocharge = person.charge.bind(anontoJolil);
+// anontocharge(500);
+// console.log(anontoJolil.salary);
+
+//                       call
+
+
+// person.charge.call(heroAlam,700);
+// console.log(heroAlam.salary);
+
+//                       apply
+
+person.charge.apply(heroAlam,[2300]);
+console.log(heroAlam.salary);
