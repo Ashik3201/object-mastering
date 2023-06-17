@@ -32,10 +32,10 @@ console.log(abm.salary);
 
 //                      call
 
-stuff.tax.call(kamrul,32332 ,43, 66666 );
+stuff.tax.call(kamrul,32332 ,43, 66666 );   // param
 console.log(kamrul.salary);
 
 //                    apply
 
-stuff.tax.apply(badhon,[767676,34,45]);
+stuff.tax.apply(badhon,[767676,34,45]);   // parameter passed with array
 console.log(badhon.salary);
